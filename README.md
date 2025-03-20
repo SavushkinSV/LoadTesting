@@ -557,13 +557,17 @@ __Пост-обработчики (Post-Processors)__ – элементы Jmete
 
 Далее перечислены наиболее часто используемые пост-обработчики:
 
+- Boundary Extractor;
 - BeanShell PostProcessor;
 - JSR223 PostProcessor;
 - JDBC PostProcessor;
-- CSS/JQuery Extractor;
+- CSS Selector Extractor
+- JSON Extractor;
 - Xpath Extractor;
 - Regular Expression Extractor;
 - Debug PostProcessor.
+
+_Boundary Extractor_ — это пост-процессор, который позволяет извлекать данные из ответа сервера на основе заданных начальных и конечных границ (маркеров). Он используется для извлечения определённых фрагментов данных из ответов HTTP-запросов, таких как текст, XML или JSON.
 
 __Таймеры (Timers)__ - используется для имитации пользовательского ожидания в Jmeter. К числу наиболее важных таймеров относятся:
 
